@@ -6,14 +6,20 @@ html, body {
 
 .container {
   width: 960px;
+  margin: 0 auto;
 }
 
 /* Styles for banner*/
 
-.banner {
-  background-image: url("glasses.png");
+.banner .container {
+  display: flex;
+  align-items: center;
 }
 
-.logo {
-  color: green;
+.banner {
+  background-image: url("glasses.png");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
