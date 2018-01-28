@@ -23,3 +23,17 @@ html, body {
   background-position: center;
   background-size: cover;
 }
+
+.navigation {
+  background-color: cadetblue;
+  margin-top: 1rem;
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
