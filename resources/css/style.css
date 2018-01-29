@@ -24,6 +24,10 @@ html, body {
   background-size: cover;
 }
 
+
+/* Styles for navigation section of Banner*/
+
+
 .navigation {
   background-color: cadetblue;
   margin-top: 1rem;
@@ -45,4 +49,25 @@ html, body {
   height: 1.25rem;
   padding-left: 2rem;
   padding-right: 1rem;
+}
+
+/* Styles for slogan section of Banner*/
+
+.slogan {
+  font-family: Helvetica
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 10rem;
+  display: flex;
+}
+
+.slogan .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slogan span {
+  background-color: white;
+  padding: 1.5rem 5rem;
 }
