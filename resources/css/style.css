@@ -71,3 +71,34 @@ html, body {
   background-color: white;
   padding: 1.5rem 5rem;
 }
+
+
+/* Styles for service description section*/
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.exams {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 3.5rem;
+  height: 8rem;
+}
+
+.fittings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
