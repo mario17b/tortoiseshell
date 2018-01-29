@@ -30,10 +30,19 @@ html, body {
   width: 960px;
   display: flex;
   justify-content: space-between;
+  color: white;
+  align-items: center;
+  height: 4rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.menu span {
+  padding-right: 2rem;
 }
 
 .logo img {
-  height: 1.5rem;
+  height: 1.25rem;
   padding-left: 2rem;
   padding-right: 1rem;
 }
