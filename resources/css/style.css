@@ -72,7 +72,6 @@ html, body {
   padding: 1.5rem 5rem;
 }
 
-
 /* Styles for service description section*/
 
 .services {
@@ -81,24 +80,26 @@ html, body {
   justify-content: space-around;
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
-
-.exams {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 3.5rem;
   height: 8rem;
 }
 
-.fittings {
+.pics {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 5rem;
 }
 
-.delivery {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.services span {
+  color: purple;
+}
+
+.exam img {
+  width: 3.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.other img {
+  width: 5rem;
+  padding-bottom: 1.5rem;
 }
