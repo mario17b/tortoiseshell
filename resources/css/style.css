@@ -103,3 +103,20 @@ html, body {
   width: 5rem;
   padding-bottom: 1.5rem;
 }
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.title {
+  width: 10rem;
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: : 10rem;
+  padding: .5rem 0 .5rem 1.25rem;
+}
