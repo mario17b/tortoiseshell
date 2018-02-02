@@ -104,6 +104,8 @@ html, body {
   padding-bottom: 1.5rem;
 }
 
+/* Styles for service description section*/
+
 .info {
   display: flex;
   flex-direction: row;
