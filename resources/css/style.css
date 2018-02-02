@@ -24,7 +24,15 @@ html, body {
   background-size: cover;
 }
 
-
+@media only screen
+    and (max-width: 1024px) {
+      .banner {
+        height: 22rem;
+      }
+      .container {
+        width: 100%;
+      }
+}
 /* Styles for navigation section of Banner*/
 
 
