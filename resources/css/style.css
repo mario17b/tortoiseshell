@@ -33,6 +33,7 @@ html, body {
         width: 100%;
       }
 }
+
 /* Styles for navigation section of Banner*/
 
 
@@ -78,6 +79,19 @@ html, body {
 .slogan span {
   background-color: white;
   padding: 1.5rem 5rem;
+}
+
+@media only screen
+    and (max-width: 1024px) {
+      .slogan span {
+        padding: .75rem 4rem;
+        font-size: 1.33rem;
+      }
+
+      .slogan container {
+        margin-top: 5rem;
+        margin-right: 2rem;
+      }
 }
 
 /* Styles for service description section*/
