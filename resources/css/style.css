@@ -162,10 +162,6 @@ html, body {
   width: 5rem;
 }
 
-.services span {
-  color: purple;
-}
-
 .exam img {
   width: 3.5rem;
   padding-bottom: 1.5rem;
@@ -230,6 +226,12 @@ html, body {
       .philosophy, .title {
         width: 100%;
       }
+
+      .description {
+        padding: 1rem 0 4rem 0;
+        font-family: Helvetica;
+        font-size: 0.77rem;
+      }
 }
 
 /* Styles for service description section */
@@ -248,4 +250,16 @@ html, body {
 
 .copyright {
   padding: 4rem 0;
+}
+
+@media only screen
+    and (max-width: 480px) {
+      .copyright {
+        display: none;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: center;
+      }
 }
