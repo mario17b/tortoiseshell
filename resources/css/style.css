@@ -24,6 +24,10 @@ html, body {
   background-size: cover;
 }
 
+.phone-menu {
+  display: none;
+}
+
 /* Media styles used for tablet*/
 
 
@@ -35,6 +39,7 @@ html, body {
       .container {
         width: 100%;
       }
+
 }
 
 /* Media styles used for phone*/
@@ -44,8 +49,14 @@ html, body {
       .banner {
         height: 17rem;
       }
-      .container {
-        width: 100%;
+
+      .menu {
+        display: none;
+      }
+
+      .phone-menu {
+        display: block;
+        padding-right: 1rem;
       }
 }
 
@@ -75,8 +86,20 @@ html, body {
   padding-right: 1rem;
 }
 
+/* Media styles used for phone*/
+
 @media only screen
     and (max-width: 1024px) {
+      .logo img {
+        background-position: 20%;
+      }
+}
+
+/* Styles for navigation section of Banner*/
+
+
+@media only screen
+    and (max-width: 480px) {
       .navigation {
         margin-top: 0;
       }
