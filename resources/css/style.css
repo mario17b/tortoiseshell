@@ -24,10 +24,25 @@ html, body {
   background-size: cover;
 }
 
+/* Media styles used for tablet*/
+
+
 @media only screen
     and (max-width: 1024px) {
       .banner {
         height: 22rem;
+      }
+      .container {
+        width: 100%;
+      }
+}
+
+/* Media styles used for phone*/
+
+@media only screen
+    and (max-width: 480px) {
+      .banner {
+        height: 17rem;
       }
       .container {
         width: 100%;
@@ -60,6 +75,14 @@ html, body {
   padding-right: 1rem;
 }
 
+@media only screen
+    and (max-width: 1024px) {
+      .navigation {
+        margin-top: 0;
+      }
+}
+
+
 /* Styles for slogan section of Banner*/
 
 .slogan {
@@ -86,11 +109,6 @@ html, body {
       .slogan span {
         padding: .75rem 4rem;
         font-size: 1.33rem;
-      }
-
-      .slogan container {
-        margin-top: 5rem;
-        margin-right: 2rem;
       }
 }
 
