@@ -220,6 +220,18 @@ html, body {
   margin-bottom: 1rem;
 }
 
+@media only screen
+    and (max-width: 480px) {
+      .info {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .philosophy, .title {
+        width: 100%;
+      }
+}
+
 /* Styles for service description section */
 
 .footer {
